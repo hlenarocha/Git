@@ -1,3 +1,3 @@
 Aprendendo git e github
 
-Mandando código para o git
+Mandando código para o git ....
