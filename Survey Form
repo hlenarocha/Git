@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <link rel='stylesheet' href='styles.css'>
+  <title>College Students</title>
+</head>
+<body>
+  <div class='tit'> <h1 id='title'>FreeTechCourses</h1> </div>
+  <h2 class='register'>Registration</h2>
+  <p id='description'>Please give all the informations required.</p>
+  <form id='survey-form'>
+<fieldset> <label id='name-label'>Name:<input id='name' type='text' required placeholder='Your first name'></input> </label>
+<label id='email-label'>Email:<input id='email' type='email' required placeholder='Your best email'></input> </label>
+<label id='number-label'>Age:<input id='number' type='number' min='17' max='100' required placeholder='Your age in this moment'></input> </label> </fieldset>
+<fieldset> <label> Where/How did you found us?
+  <select id='dropdown'>
+    <option>(choose one)</option>
+    <option>YouTube Channel</option>
+    <option>Facebook</option>
+    <option>Instagram</option>
+<option>A nice friend's recommendation</option>
+  </select>
+</label>
+<hr>
+<label>Would you recommend FreeTechCourses?    (Be a nice friend!)
+<label for='radio'><input id='radio' name='radio' type='radio' value='100' class='inline'></input>Yes</label>
+<label for='radio'><input name='radio' type='radio' class='inline' value='50'>Maybe</input></label>
+ <label for='radio'> <input name='radio' type='radio' class='inline' value='0'></input>No  
+</label>
+<hr>
+<label> What are your main learning interests?
+<label> <input type='checkbox' value='10' class='inline'> 
+</input>Basic programming languages</label>
+<label><input type='checkbox' value='20' class='inline'>
+</input>Front End Development</label>
+<label><input type='checkbox' value='20' class='inline'>
+</input>Back End Development</label>
+<label><input type='checkbox' value='20' class='inline'>
+</input>Data Science</label>
+</label> </fieldset>
+<fieldset> <label> Type below suggestions for improvement!
+  <textarea placeholder='I would like if...'></textarea>
+</label> </fieldset>
+<input type='submit' value='Submit' id='submit'/>
+  </form>
+
+</body>
+<footer><a href='https://freetechcourses.com'> FreeTechCourses.com</a></footer>
+</html>
+
+
